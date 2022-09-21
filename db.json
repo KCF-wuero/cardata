@@ -1,8 +1,30 @@
 {
-			"Manufacturer": "BMW",
-			"Doors": 4,
-			"HP": 250,
-			"Model": "M5",
-			"AV": "t",
-			"rentId": null
-		}
+  "type": "object",
+  "required": [
+    "Manufacturer",
+    "Doors",
+    "HP",
+    "Model",
+    "AV",
+    "rentId"
+  ],
+  "properties": {
+    "Manufacturer": {
+      "type": "string"
+    },
+    "Doors": {
+      "type": "integer"
+    },
+    "HP": {
+      "type": "integer"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "AV": {
+      "type": "string"
+    },
+    "rentId": {
+    }
+  }
+}
